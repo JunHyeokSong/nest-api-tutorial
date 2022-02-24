@@ -3,7 +3,7 @@
 ## where I am:
 
 - https://www.youtube.com/watch?v=GHTA143_b-s&list=WL&index=7&ab_channel=freeCodeCamp.org
-- @52:43
+- @1:34:47
 
 ## How to restart dev
 
