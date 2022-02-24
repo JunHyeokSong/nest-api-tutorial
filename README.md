@@ -8,18 +8,12 @@
 ## How to restart dev
 
 ```
-// Trigger Postgres via docker container
-cd C:\Users\uuuuu\Desktop\nest-course\nest-api-tutorial
-docker compose up dev-db -d
+// Restart your database
+yarn db:dev:restart
 
 // Dev Server
-cd C:\Users\uuuuu\Desktop\nest-course\nest-api-tutorial
 yarn start:dev
 
 // Prisma Studio
-cd C:\Users\uuuuu\Desktop\nest-course\nest-api-tutorial
-npx prisma studio
-
-// Free Terminal
-cd C:\Users\uuuuu\Desktop\nest-course\nest-api-tutorial
+yarn prisma:studio
 ```
