@@ -5,16 +5,15 @@ import { BookmarkModule } from './bookmark/bookmark.module';
 import { ModelModule } from './model/model.module';
 import { ConfigModule } from '@nestjs/config';
 
-
 @Module({
   imports: [
     ConfigModule.forRoot({
       isGlobal: true,
     }),
     AuthModule,
-    UserModule, 
-    BookmarkModule, 
-    ModelModule
+    UserModule,
+    BookmarkModule,
+    ModelModule,
   ],
 })
-export class AppModule { }
+export class AppModule {}
